@@ -46,4 +46,4 @@ Resize to max width 2048px? (y/n): y
 ## License
 This project is free to use, modify, and distribute.  
 __Note__: All .exe utilities used by this script (such as *convert.exe*, *jpegoptim.exe*, and *optipng.exe*) are developed and maintained by third-party developers.  
-They are not part of this repository and are provided under their respective licenses. This script simply automates their usage and does not redistribute or modify those executables.
+This script simply automates their usage and does not redistribute or modify those executables.
