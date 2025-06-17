@@ -13,7 +13,7 @@ This repository contains a simple batch script for Windows that automates the co
 
 ## Requirements
 
-Place the following tools inside the `ENGINE` folder:
+Tools inside the `ENGINE` folder:
 
 - `convert.exe` (from ImageMagick)
 - `jpegoptim.exe`
