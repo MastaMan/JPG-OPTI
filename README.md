@@ -40,7 +40,7 @@ Resize to max width 2048px? (y/n): y
 ## Output
 - All converted and optimized .jpg files will be stored in the `OUTPUT` folder.
 - Original .png and .hdr files are deleted after processing.
-- If resizing is enabled, images wider than `2048px are scaled down proportionally.
+- If resizing is enabled, images wider than `2048px` are scaled down proportionally.
 - Metadata is stripped and images are saved in progressive JPEG format for better web performance.
 
 ## License
