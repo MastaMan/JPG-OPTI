@@ -26,10 +26,10 @@ echo.
 
 rem ask for quality
 set /p "quality=Quality (0-100, default: 85): "
-if "%quality%"=="" set "quality=85"
+if "%quality%"=="" set "quality=95"
 
 rem ask for resize
-set /p "resize=Resize to max width 2048px? (y/n): "
+set /p "resize=Resize to max width 2048px? (y/n) (default: n): "
 set "resize=%resize:~0,1%"
 set "resize=%resize:y=Y%"
 if /i "%resize%"=="Y" (
@@ -48,13 +48,6 @@ rem convert png to jpg
 echo Converting png to jpg...
 for %%k in (%out%*.png) do (
     %engine%convert.exe "%%k" "%%~dpk%%~nk.jpg"
-    del "%%k"
-)
-
-rem convert hdr to jpg
-echo Converting hdr to jpg...
-for %%k in (*.hdr) do (
-    %engine%convert.exe "%%k" "%out%%%~nk.jpg"
     del "%%k"
 )
 
